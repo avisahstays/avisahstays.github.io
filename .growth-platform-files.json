@@ -1,6 +1,10 @@
 {
   "_note": "Files written by the growth platform. Files not listed here are never touched by it.",
   "files": [
+    "assets/proof/earnings-by-month.png",
+    "assets/proof/occupancy-nov.png",
+    "assets/proof/occupancy-oct.png",
+    "assets/proof/rating.png",
     "assets/results-card.jpg",
     "assets/site.css",
     "index.html",
