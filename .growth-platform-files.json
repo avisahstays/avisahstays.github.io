@@ -1,6 +1,12 @@
 {
   "_note": "Files written by the growth platform. Files not listed here are never touched by it.",
   "files": [
+    "assets/fonts/hanken-grotesk-latin-ext.woff2",
+    "assets/fonts/hanken-grotesk-latin.woff2",
+    "assets/fonts/literata-latin-ext.woff2",
+    "assets/fonts/literata-latin.woff2",
+    "assets/photos/qutub-minar-hero.jpg",
+    "assets/photos/qutub-minar-travel.jpg",
     "assets/proof/earnings-by-month.png",
     "assets/proof/occupancy-nov.png",
     "assets/proof/occupancy-oct.png",

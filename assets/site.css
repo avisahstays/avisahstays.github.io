@@ -1,4 +1,9 @@
 /* Avisah site style, from Sahil's approved design avisah-elite (26 Nov 2026), plus header, inner pages and Related links. */
+/* Fonts hosted on this site (SIL Open Font License): Literata and Hanken Grotesk, Latin and Latin Extended. */
+@font-face{font-family:'Literata';font-style:normal;font-weight:400 600;font-display:swap;src:url(/assets/fonts/literata-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Literata';font-style:normal;font-weight:400 600;font-display:swap;src:url(/assets/fonts/literata-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:500 600;font-display:swap;src:url(/assets/fonts/hanken-grotesk-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:500 600;font-display:swap;src:url(/assets/fonts/hanken-grotesk-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
 :root{
   --night:#0C2629;     /* page: Delhi dusk teal */
   --deep:#081C1F;      /* lower bands */
@@ -36,7 +41,7 @@ a{color:inherit}
 .btn svg{width:20px;height:20px;fill:currentColor}
 
 /* hero */
-.hero-photo{position:relative;background:linear-gradient(90deg,rgba(8,28,31,.96) 0%,rgba(8,28,31,.82) 45%,rgba(8,28,31,.45) 100%),url('https://images.unsplash.com/photo-1663229203856-8a363f07d881?w=2000&q=70&auto=format&fit=crop') center 40%/cover no-repeat,var(--deep)}
+.hero-photo{position:relative;background:linear-gradient(90deg,rgba(8,28,31,.96) 0%,rgba(8,28,31,.82) 45%,rgba(8,28,31,.45) 100%),url('/assets/photos/qutub-minar-hero.jpg') center 40%/cover no-repeat,var(--deep)}
 .hero-photo::after{content:"";position:absolute;inset:auto 0 0 0;height:120px;background:linear-gradient(transparent,var(--night))}
 .hero-photo .wrap{position:relative;z-index:1}
 .hero{display:grid;grid-template-columns:1.05fr 1fr;gap:64px;align-items:center;padding-block:56px 88px}
@@ -131,7 +136,7 @@ details p{color:var(--stone);margin:12px 0 0;max-width:40em}
 /* closing */
 .close{text-align:left;padding-block:96px 112px}
 .close h2{max-width:14em}
-.travel{background:linear-gradient(90deg,rgba(8,28,31,.92),rgba(8,28,31,.55)),url('https://images.unsplash.com/photo-1632426237957-5ea14aae7100?w=1600&q=70&auto=format&fit=crop') center/cover,var(--panel);padding-block:56px!important;border-radius:24px;padding:36px 40px;display:flex;justify-content:space-between;align-items:center;gap:24px;margin-top:72px}
+.travel{background:linear-gradient(90deg,rgba(8,28,31,.92),rgba(8,28,31,.55)),url('/assets/photos/qutub-minar-travel.jpg') center/cover,var(--panel);padding-block:56px!important;border-radius:24px;padding:36px 40px;display:flex;justify-content:space-between;align-items:center;gap:24px;margin-top:72px}
 .travel p{margin:0;font-size:19px}
 footer{background:var(--deep);border-top:1px solid var(--line);padding:32px 0 48px;font:500 14px/1.6 var(--sans);color:var(--stone)}
 footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
